@@ -1,1 +1,8 @@
-# shiny-app-project-macs40700
+**Description:**
+In the Shiny application, the primary goal was to visualize and analyze GDP per capita data. The application is structured into three key sections: data import and preprocessing, user interface design, and server-side logic. Initially, I handle the data import and preprocessing with the import_gapminder function, which reads GDP data from an Excel file and prepares it for analysis. This involves cleaning and transforming the data to a format suitable for visual exploration.
+
+For the user interface, I use shinydashboard to create a structured layout divided into three tabs, each designed for different types of data interaction. The "Time Trends (by Country)" tab allows users to select countries and time ranges to view GDP trends. The "Country Comparison (by Year)" tab provides tools for comparing the average GDP per capita across selected countries within a specific timeframe. The "Geographical Trends" tab offers a map visualization, showing GDP per capita by country, filtered by continent and selected year.
+
+On the server side, I implemented reactive programming to ensure that the UI components like plots, tables, and maps update dynamically based on user inputs. This involves filtering data according to user selections and rendering visual outputs such as line graphs for time trends, tables for country comparisons, and color-coded maps for geographical analysis.
+
+Overall, this application serves as a tool for exploring GDP per capita data, enabling detailed comparisons and insights into economic trends across different regions and time periods. It effectively combines data manipulation using tidyverse, visual storytelling with ggplot2 and leaflet, and interactive UI elements facilitated by shinydashboard.
