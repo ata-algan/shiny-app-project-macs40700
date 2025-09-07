@@ -6,3 +6,5 @@ For the user interface, I use shinydashboard to create a structured layout divid
 On the server side, I implemented reactive programming to ensure that the UI components like plots, tables, and maps update dynamically based on user inputs. This involves filtering data according to user selections and rendering visual outputs such as line graphs for time trends, tables for country comparisons, and color-coded maps for geographical analysis.
 
 Overall, this application serves as a tool for exploring GDP per capita data, enabling detailed comparisons and insights into economic trends across different regions and time periods. It effectively combines data manipulation using tidyverse, visual storytelling with ggplot2 and leaflet, and interactive UI elements facilitated by shinydashboard.
+
+*Note:* You need to download 1) R and 2) the file named "gdp_pcap.xlsx" to execute the app. 
